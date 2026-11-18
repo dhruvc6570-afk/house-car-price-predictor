@@ -1,0 +1,13 @@
+# Data files: Kaggle datasets usually do not allow re-uploading them.
+# Anyone can recreate sample data with:  python generate_sample_data.py
+data/
+
+# Trained models: anyone can regenerate them with:  python train.py
+models/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Streamlit secrets file (never upload passwords/keys)
+.streamlit/secrets.toml
